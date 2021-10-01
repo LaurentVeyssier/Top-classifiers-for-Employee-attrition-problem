@@ -18,7 +18,7 @@ Most influencing features are the workload, the employee's satisfaction level, i
 
 ![](data/xgboost.jpg)
 
-![](data/feature importance.jpg)
+![](data/feature_importance.jpg)
 
 # Wrap-up
 
