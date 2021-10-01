@@ -12,7 +12,7 @@ In total, 9 features are available for our classification task.
 
 # Best model
 
-I test several classifiers from sklearn suite. Ensemble models generally perform much better than SVM or DecisionTree.
+I test several classifiers from sklearn suite. Ensemble models generally perform much better than logisticRegression or SVM.
 XG Boost obtains the best performance with an accuracy just below 99% and a very good f1-score. There are very good recall reducing the issue of false negative which can be a significant issue when trying to detect future leavers.
 Most influencing features are the workload, the employee's satisfaction level, its performance evaluation and his years of service with the company (decreasing order).
 
