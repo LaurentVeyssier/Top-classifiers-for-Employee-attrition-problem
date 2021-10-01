@@ -13,8 +13,8 @@ In total, 9 features are available for our classification task.
 # Best model
 
 I test several classifiers from sklearn suite. Ensemble models generally perform much better than logisticRegression or SVM.
-XG Boost obtains the best performance with an accuracy just below 99% and a very good f1-score. There are very good recall reducing the issue of false negative which can be a significant issue when trying to detect future leavers.
-Most influencing features are the workload, the employee's satisfaction level, its performance evaluation and his years of service with the company (decreasing order).
+XG Boost obtains the best performance with an accuracy just below 99% and a very good f1-score. Very good recall reducing the issue of false negative which can be a significant flaw when trying to detect future leavers. Companies would want to avoid not detecting true leavers (false negative). This is the issue with most consequential impact.
+Most influencing features are the workload, the employee's satisfaction level, the performance evaluation and the number of years of service with the company (decreasing order).
 
 ![](data/xgboost.jpg)
 
@@ -23,6 +23,6 @@ Most influencing features are the workload, the employee's satisfaction level, i
 # Wrap-up
 
 Using majority voting, the combination of XGBoost, Gradient Boosting and DecisionTree provides the highest performance with slightly above 99% accuracy.
-From there we are able to predict if an employee is at risk or not.
+From there we are able to predict if an employee is at risk or not based on employee profile and available corporate assessments.
 
 ![](data/voting_classifier.jpg)
