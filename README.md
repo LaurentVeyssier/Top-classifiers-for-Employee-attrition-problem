@@ -16,13 +16,13 @@ I test several classifiers from sklearn suite. Ensemble models generally perform
 XG Boost obtains the best performance with an accuracy just below 99% and a very good f1-score. There are very good recall reducing the issue of false negative which can be a significant issue when trying to detect future leavers.
 Most influencing features are the workload, the employee's satisfaction level, its performance evaluation and his years of service with the company (decreasing order).
 
-![](asset/xgboost.jpg)
+![](data/xgboost.jpg)
 
-![](asset/feature importance.jpg)
+![](data/feature importance.jpg)
 
 # Wrap-up
 
 Using majority voting, the combination of XGBoost, Gradient Boosting and DecisionTree provides the highest performance with slightly above 99% accuracy.
 From there we are able to predict if an employee is at risk or not.
 
-![](asset/voting_classifier.jpg)
+![](data/voting_classifier.jpg)
